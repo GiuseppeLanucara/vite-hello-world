@@ -9,6 +9,10 @@ export default {
 
     }
   },
+  components: {
+    AppTitle
+  },
+
   methods: {
 
 
