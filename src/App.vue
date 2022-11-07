@@ -1,6 +1,7 @@
 <script>
 
 import AppTitle from "./components/AppTitle.vue";
+import AppHero from "./components/AppHero.vue";
 
 export default {
   data() {
@@ -11,7 +12,8 @@ export default {
   },
   components: {
     AppTitle,
-    AppHero
+    AppHero,
+
   },
 
   methods: {
@@ -25,6 +27,7 @@ export default {
 <template>
   <AppTitle />
   <p>Questa è una dimostrazione sulla prima app fatta utilizzando Vite</p>
+  <AppHero />
 
 </template>
 

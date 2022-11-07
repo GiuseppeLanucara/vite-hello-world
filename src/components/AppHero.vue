@@ -19,8 +19,17 @@ export default {
 
 <template>
 
+    <div class="lofi">
+        <img src="../assets/img/lofi.jpg" alt="">
+    </div>
+
+
 </template>
 
-<style>
-
+<style scoped>
+img {
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+}
 </style>
