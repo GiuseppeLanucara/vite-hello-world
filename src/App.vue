@@ -10,7 +10,8 @@ export default {
     }
   },
   components: {
-    AppTitle
+    AppTitle,
+    AppHero
   },
 
   methods: {
