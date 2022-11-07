@@ -2,6 +2,7 @@
 
 import AppTitle from "./components/AppTitle.vue";
 import AppHero from "./components/AppHero.vue";
+import AppBackground from "./components/AppBackground.vue";
 
 export default {
   data() {
@@ -13,6 +14,7 @@ export default {
   components: {
     AppTitle,
     AppHero,
+    AppBackground
 
   },
 
@@ -35,7 +37,7 @@ export default {
 
 <style>
 p {
-  color: red;
+  color: mistyrose;
   font-size: xx-large;
   font-style: oblique;
   text-align: center;
